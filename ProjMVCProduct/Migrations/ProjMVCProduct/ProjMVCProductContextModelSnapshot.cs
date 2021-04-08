@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjMVCProduct.Data;
 
-namespace ProjMVCProduct.Migrations
+namespace ProjMVCProduct.Migrations.ProjMVCProduct
 {
     [DbContext(typeof(ProjMVCProductContext))]
     partial class ProjMVCProductContextModelSnapshot : ModelSnapshot

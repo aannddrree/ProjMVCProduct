@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjMVCProduct.Data;
 
-namespace ProjMVCProduct.Migrations
+namespace ProjMVCProduct.Migrations.ProjMVCProduct
 {
     [DbContext(typeof(ProjMVCProductContext))]
-    [Migration("20210407115343_Initial-Create")]
-    partial class InitialCreate
+    [Migration("20210408022229_v1")]
+    partial class v1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
